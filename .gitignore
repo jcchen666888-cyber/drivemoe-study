@@ -1,0 +1,33 @@
+# Downloaded upstream sources and runtime assets
+_deps/
+artifacts/
+data/
+ckpts/
+exp/
+log/
+outputs/*
+!outputs/.gitkeep
+!outputs/minimal_drivemoe_loop.png
+!outputs/official_mini/
+!outputs/official_mini/results.json
+!outputs/official_mini/drive_moe_predictions.png
+
+# Python/runtime caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.hydra/
+wandb/
+
+# Local environments and temporary files
+.venv/
+tmp/
+*.part
+*.tmp
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
